@@ -5,4 +5,3 @@ permalink: /publications/
 ---
 
 Blah blah
-<!--- {% include publications.html %} -->
