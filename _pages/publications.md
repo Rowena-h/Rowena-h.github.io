@@ -3,4 +3,5 @@ permalink: /publications/
 title: "Publications"
 ---
 
-{% include publications.html %}
+Blah blah
+<!--- {% include publications.html %} -->
