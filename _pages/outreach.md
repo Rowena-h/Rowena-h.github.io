@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Outreach"
+title: "Science outreach"
 permalink: /outreach/
 ---
 
