@@ -1,7 +1,8 @@
 ---
 layout: single
+classes: wide
 title: "CV"
 permalink: /cv/
 ---
 
-Blah blah
+{% include cv.html %}
