@@ -5,7 +5,7 @@
 layout: single
 ---
 
-<img align="left" src="images/profile.png" alt="Photo of me">
+<img align="left" src="images/profile.png" width=100 alt="Photo of me">
 I am a PhD student in my final few months at RBG Kew and Queen Mary University of London, where I have been researching the diversity and evolution of plant-associated fungi.
 
 My main research interests and expertise lie in using evolutionary genomics approaches to explore questions around fungal lifestyle evolution and plant–fungal interactions.
