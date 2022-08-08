@@ -2,8 +2,8 @@
 layout: home
 classes: wide
 sidebar:
-    image: /images/profile.png
-    image_alt: "Me"
+	image: /images/profile.png
+	image_alt: "Me"
 ---
 
 I am a PhD student in my final few months at RBG Kew and Queen Mary University of London, where I have been researching the diversity and evolution of plant-associated fungi.
