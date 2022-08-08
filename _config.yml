@@ -60,7 +60,7 @@ include:
 
 author:
   name   : "Rowena Hill"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/images/profile.png"
   #bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "ResearchGate"
@@ -72,6 +72,11 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Rowena-h"
+      
+sidebar:
+    image: /images/profile.png
+    image_alt: "Me"
+
 
 footer:
   links:
