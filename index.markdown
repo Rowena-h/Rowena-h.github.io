@@ -2,7 +2,6 @@
 layout: home
 classes: wide
 sidebar:
-  - title: "Test"
     image: /images/profile.png
     image_alt: "Me"	
 ---
