@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: single
+layout: sidebar custom
 ---
 
 I am a PhD student in my final few months at RBG Kew and Queen Mary University of London, where I have been researching the diversity and evolution of plant-associated fungi.
