@@ -73,12 +73,6 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Rowena-h"
       
-sidebar:
-    - title: "Test"
-      image: /images/profile.png
-      image_alt: "Me"
-
-
 footer:
   links:
     - label: "Twitter"
