@@ -10,7 +10,7 @@ permalink: /outreach/
 ### [Why fungi are the best friends (and worst enemies) you never knew you had](https://github.com/Rowena-h/Presentations/tree/master/Why%20fungi%20are%20the%20best%20friends%20(and%20worst%20enemies)%20you%20never%20knew%20you%20had)
 A talk given on 11th May 2022 at the 'Unloved Animals Club: Battle of the Kingdoms' event of the **[Pint of Science](https://pintofscience.co.uk/) Festival 2022**. It won over the audience and fungi were voted the best-loved kingdom of the night! :smiling_face_with_three_hearts:
 
-<img src="https://github.com/Rowena-h/Presentations/blob/master/Why%20fungi%20are%20the%20best%20friends%20(and%20worst%20enemies)%20you%20never%20knew%20you%20had/front.png" width="500" alt="Why fungi are the best friends (and worst enemies) you never knew you had">
+<img src="/images/pintofsciencetalk.png" width="500" alt="Why fungi are the best friends (and worst enemies) you never knew you had">
 
 ### Seed Banks as Incidental Fungal Endophyte Banks
 A talk given at the **BMS Autumn Open Meeting 2020** based on [this study](https://www.frontiersin.org/articles/10.3389/fmicb.2021.643731/full).
