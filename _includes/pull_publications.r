@@ -8,8 +8,8 @@ library(listviewer)
 #Function to convert special characters for HTML
 char2html <- function(x){
   dictionary <- data.frame(
-    symbol = c("ä", "á", "ö", "ü", "Ä", "Ö", "Ü", "ß", "Z"),
-    html = c("&auml;", "&aacute;", "&ouml;", "&uuml;","&Auml;",
+    symbol=c("Ã¤", "Ã¡", "Ã¶", "Ã¼", "Ã„", "Ã–", "Ãœ", "ÃŸ", "Å½"),
+    html=c("&auml;", "&aacute;", "&ouml;", "&uuml;","&Auml;",
              "&Ouml;", "&Uuml;", "&szlig;", "&#381;"))
   for(i in 1:dim(dictionary)[1]){
     x <- gsub(dictionary$symbol[i], dictionary$html[i], x)
@@ -44,18 +44,18 @@ for (i in 1:length(html_1$title)) {
 
 #Format as HTML table with metric badges
 html_2 <- html_1 %>%
-  as_tibble %>% arrange(desc(year)) %>%
-  mutate(
-    author=str_replace_all(author, "([A-Z]) ([A-Z]) ", "\\1\\2 "),
-    author=str_replace_all(author, ", \\.\\.\\.", " et al."),
-    author=str_replace_all(author, "R Hill", "<b>R Hill</b>")
-  ) %>% split(.$year) %>%
+  as_tibble %>%
+  arrange(desc(year)) %>%
+  mutate(author=str_replace_all(author, "([A-Z]) ([A-Z]) ", "\\1\\2 "),
+         author=str_replace_all(author, ", \\.\\.\\.", " et al."),
+         author=str_replace_all(author, "R Hill", "<b>R Hill</b>")) %>% 
+  split(.$year) %>%
   map(function(x){
     x <- x %>%
       glue_data('
       <tr>
       <td width="10%">
-      <a href="https://plu.mx/plum/a/?doi={doi}" data-popup="right" data-size="large" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true" target="_blank">{title}</a>
+      <a href="https://plu.mx/plum/a/?doi={doi}" data-popup="right" data-size="large" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true" target="_blank"></a>
       </td>
       <td width="10%">
       <div data-badge-popover="right" data-badge-type="donut" data-doi="{doi}" data-hide-no-mentions="true" class="altmetric-embed"></div>
@@ -67,10 +67,13 @@ html_2 <- html_1 %>%
       str_replace_all("(, )+</p>", "</p>") %>%
       char2html()
     return(x);
-  }) %>% rev
+  }) %>% 
+  rev
 
 #Add table rows for year groupings
-html_3 <- map2(names(html_2) %>% paste0('<tr><td width="10%"><h3>', ., '</h3></td><td width="10%"></td><td width="10%"></td><td width="10%"></td></tr>'), html_2, c) %>% unlist
+html_3 <- map2(names(html_2) %>%
+                 paste0('<tr><td width="10%"><h3>', ., '</h3></td><td width="10%"></td><td width="10%"></td><td width="10%"></td></tr>'), html_2, c) %>%
+  unlist
 
 #Add page preamble and table wrapping
 html_4 <- c(
@@ -92,6 +95,11 @@ html_4 <- c(
   '</tbody>
   </table>
   </body>')
+
+#Remove nonexistent metric badges
+html_4 <- sub('<div data-badge-popover="right" data-badge-type="donut" data-doi="NA" data-hide-no-mentions="true" class="altmetric-embed"></div>', '', html_4)
+html_4 <- sub('<a href="https://plu.mx/plum/a/?doi=NA" data-popup="right" data-size="large" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true" target="_blank"></a>', '', html_4)
+
 
 #Write to file
 writeLines(html_4, file("publications.html", encoding="UTF-8"))
