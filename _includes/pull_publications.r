@@ -10,7 +10,7 @@ char2html <- function(x){
   dictionary <- data.frame(
     symbol=c("ä", "á", "ö", "ü", "Ä", "Ö", "Ü", "ß", "Ž"),
     html=c("&auml;", "&aacute;", "&ouml;", "&uuml;","&Auml;",
-             "&Ouml;", "&Uuml;", "&szlig;", "&#381;"))
+           "&Ouml;", "&Uuml;", "&szlig;", "&#381;"))
   for(i in 1:dim(dictionary)[1]){
     x <- gsub(dictionary$symbol[i], dictionary$html[i], x)
   }
