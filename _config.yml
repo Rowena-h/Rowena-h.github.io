@@ -103,3 +103,10 @@ defaults:
       type: pages
     values:
       author_profile: false
+
+category_archive:
+  type: liquid
+  path: /blog-categories/
+tag_archive:
+  type: liquid
+  path: /blog-tags/
