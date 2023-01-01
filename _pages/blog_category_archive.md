@@ -1,6 +1,6 @@
 ---
 layout: categories
-classes: wide
+classes: wide2
 title: "Posts by category"
 permalink: /blog-categories/
 ---

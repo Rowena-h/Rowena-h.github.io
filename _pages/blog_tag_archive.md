@@ -1,6 +1,6 @@
 ---
 layout: tags
-classes: wide
+classes: wide2
 title: "Posts by tag
 link: /blog-tags/
 ---
