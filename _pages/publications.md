@@ -1,5 +1,4 @@
 ---
-layout: single
 classes: wide
 title: "Publications"
 permalink: /publications/
