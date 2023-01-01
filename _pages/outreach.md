@@ -1,5 +1,4 @@
 ---
-classes: wide2
 title: "Science outreach"
 permalink: /outreach/
 ---
