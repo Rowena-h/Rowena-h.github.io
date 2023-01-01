@@ -6,30 +6,6 @@
 
 /* Variables */
 
-.wide2 {
-  .page {
-    float: left;
-    width: 100%;
-    @include breakpoint($large) {
-      padding-left: 0;
-    }
-
-    @include breakpoint($x-large) {
-      padding-left: 0;
-    }
-  }
-
-  .page__related {
-    @include breakpoint($large) {
-      padding-left: 0;
-    }
-
-    @include breakpoint($x-large) {
-      padding-left: 0;
-    }
-  }
-}
-
 @import "minimal-mistakes/variables";
 
 /* Mixins and functions */
@@ -63,3 +39,27 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+.wide2 {
+  .page {
+    float: left;
+    width: 100%;
+    @include breakpoint($large) {
+      padding-left: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-left: 0;
+    }
+  }
+
+  .page__related {
+    @include breakpoint($large) {
+      padding-left: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-left: 0;
+    }
+  }
+}
