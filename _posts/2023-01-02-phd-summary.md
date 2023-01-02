@@ -5,6 +5,7 @@ date: "02 January, 2023"
 categories: data-visualisation academia
 tags: ggplot2 R personal
 excerpt: "Visualising my productivity throughout my PhD using my data from Asana."
+toc: true
 header:
   teaser: /images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png
   og_image: /images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png
@@ -917,7 +918,7 @@ sure it helped my productivity to have been disciplined about my
 schedule, and that maintaining distinct work and non-work time allowed
 me to be more focused and efficient in work hours.
 
-#### Session details
+### Session details
 
 ``` r
 sessionInfo()
