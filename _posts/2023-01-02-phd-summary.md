@@ -6,10 +6,13 @@ categories: data-visualisation academia
 tags: ggplot2 R personal
 excerpt: "Visualising my productivity throughout my PhD using my data from Asana."
 toc: true
+toc_sticky: true
 header:
   teaser: /images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png
   og_image: /images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png
 ---
+
+<p align="center"><img src="/images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png" width="640"></p>
 
 Last month I handed in my PhD thesis, the culmination of almost 4 years
 of work! 🥳
