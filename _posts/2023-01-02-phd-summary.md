@@ -4,15 +4,14 @@ title: "Digging into Asana data from my PhD"
 date: "02 January, 2023"
 categories: data-visualisation academia
 tags: ggplot2 R personal
+excerpt: "Visualising my productivity throughout my PhD using my data from Asana."
 header:
   teaser: /images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png
   og_image: /images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png
 ---
 
-<br>
-
 Last month I handed in my PhD thesis, the culmination of almost 4 years
-of work! :partying_face:
+of work! 🥳
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s the end of an era for me today as I submitted my PhD thesis..! 🍄 Thanks for everything <a href="https://twitter.com/EsterGaya1?ref_src=twsrc%5Etfw">@EsterGaya1</a> <a href="https://twitter.com/RJABuggs?ref_src=twsrc%5Etfw">@RJABuggs</a> <a href="https://twitter.com/theo_llewellyn?ref_src=twsrc%5Etfw">@theo_llewellyn</a> among many others <a href="https://twitter.com/KewScience?ref_src=twsrc%5Etfw">@KewScience</a> <a href="https://twitter.com/KewMycology?ref_src=twsrc%5Etfw">@KewMycology</a>. Excited to start as a postdoc <a href="https://twitter.com/EarlhamInst?ref_src=twsrc%5Etfw">@EarlhamInst</a> in the new year (after I make the most of the holidays!!) <a href="https://t.co/AChkBYQgKL">pic.twitter.com/AChkBYQgKL</a></p>&mdash; Rowena Hill (@RowenaCHill) <a href="https://twitter.com/RowenaCHill/status/1605605636258947086?ref_src=twsrc%5Etfw">December 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
@@ -27,8 +26,6 @@ As a result, Asana is a juicy archive of all the work I’ve done
 throughout almost my entire PhD. Being the data nerd I am, I couldn’t
 resist digging into it! It was also a nice dataset for trying out some
 data visualisations that I’ve not used before.
-
-<br>
 
 ### Pulling my Asana data
 
@@ -86,8 +83,6 @@ all.tasks.df$Completed.Date <- as.Date(all.tasks.df$Completed.At, "%Y-%m-%d")
 all.tasks.df$Created.Date <- as.Date(all.tasks.df$Created.At, "%Y-%m-%d")
 ```
 
-<br>
-
 ### Area plot of tasks completed over time
 
 I wanted an overview of what my productivity looked like across my PhD.
@@ -142,16 +137,12 @@ events.df$col <-
                   "Ascomycota genomics", "Thesis", "Defra internship", "Misc"))
 ```
 
-<br>
-
 I then binned my Asana task data by month, with each month bin starting
 and ending on the 23rd of the month to correspond with my PhD start/end
 dates. I chose month-sized bins as I found it to be the lowest
 resolution that still produced a meaningful area plot – going down to
 weeks made it messy and hard to interpret. This area plot could then be
 plotted alongside a timeline of major events.
-
-<br>
 
 ``` r
 library(tidyverse)
@@ -299,8 +290,6 @@ ggpreview(gg.timeline, width=7, height=3, units="in")
 ```
 ![](/images/blog-posts/2023-01-02-phd-summary/timeline-1.png)
 
-<br>
-
 My PhD was predominantly computational, especially as the first lockdown
 put a quick stop to any ongoing lab work. I should clarify that the lab
 work tasks shown above were also tagged under the project they related
@@ -326,8 +315,6 @@ about six months before my deadline. This was following a three month
 ‘break’ during which I did an internship with the civil service and
 didn’t work on my PhD at all, which was a nice breather before the final
 strait.
-
-<br>
 
 ### Looking at my weekly activity by recreating the GitHub contributions plot
 
@@ -535,8 +522,6 @@ gg.weeks.grid <- ggplot(weeks.df, aes(x=week, y=weekday, fill=n)) +
 
 ![](/images/blog-posts/2023-01-02-phd-summary/weeks-1.png)
 
-<br>
-
 You can see things generally ramping up across the academic years,
 although I’m sure there was also an element of my task management
 improving with time. You can also easily see how sacred weekends are to
@@ -545,8 +530,6 @@ me!
 The distribution of days off throughout the year looks pretty reasonable
 but perhaps a little sparse, so I also checked how many days I actively
 took off each year.
-
-<br>
 
 ``` r
 #Calculate the average number of days taken off per year, excluding bank holidays
@@ -588,8 +571,6 @@ gg.daysoff <- ggplot(daysoff.sum.df, aes(x=academic.year, y=n)) +
 
 ![](/images/blog-posts/2023-01-02-phd-summary/daysoff-1.png)
 
-<br>
-
 Note that Year 4 was 9 months rather than a full 12, so is not directly
 comparable to the other years. Nonetheless, you can see that in the
 first couple of years of my PhD I erred on the side of not taking as
@@ -610,8 +591,6 @@ taking much in other years is a testament to the flexibility of working
 in academia. It also meant that I could do some more ambitious
 travelling that I might otherwise find difficult to get the time to do
 in a ‘normal’ job.
-
-<br>
 
 ### Clock plot of working hours
 
@@ -672,8 +651,6 @@ gg.hours <- ggplot(all.tasks.df, aes(x=hour)) +
 
 ![](/images/blog-posts/2023-01-02-phd-summary/hours-1.png)
 
-<br>
-
 Despite having the freedom to manage my own time, I generally kept to a
 typical 9 to 5 workday. This is no surprise to me – I made a conscious
 decision when I started to treat my PhD like a job (which PhDs
@@ -691,8 +668,6 @@ pandemic when I shifted to predominantly working from home (yay) I’ve
 become worse at taking a proper lunch break (boo), which is reflected by
 the fact that there’s not much of a drop in number of tasks between
 12:00 and 14:00.
-
-<br>
 
 ### Distribution of task size
 
@@ -769,8 +744,6 @@ gg.tasklength <- ggplot(tasklength.df, aes(x=length, y=num)) +
 
 ![](/images/blog-posts/2023-01-02-phd-summary/tasklength-1.png)
 
-<br>
-
 You can see that I broke almost everything down into something that
 could be completed within a day, or at least the next day. So instead of
 ‘do statistical analysis’, I’d probably have ‘research methods’, ‘read
@@ -785,8 +758,6 @@ That said, it did amuse me that there was something which I avoided for
 an impressive 467 days. If you’re curious, it was uploading some of my
 sequencing data onto the HPC I was using for analysis (which is about as
 tedious as it sounds, hence the delay!)
-
-<br>
 
 ### Wordcloud of my PhD tasks
 
@@ -918,16 +889,12 @@ gg.wordcloud <- ggplot(words.cleaned.df, aes(label=word, size=freq)) +
 
 ![](/images/blog-posts/2023-01-02-phd-summary/wordcloud-1.png)
 
-<br>
-
 I like that some of my most used words epitomise what it’s like to do
 research – I was constantly rerunning, adding to and fixing things.
 
 Tree (i.e., phylogenetic), assembly (i.e., genome) and *Fusarium* look
 to be my biggest field-specific topics, which is a pretty accurate
 summary of the content of my PhD thesis.
-
-<br>
 
 ### Take-home
 
@@ -949,8 +916,6 @@ pleased that I managed to do it without sacrificing my whole life. I’m
 sure it helped my productivity to have been disciplined about my
 schedule, and that maintaining distinct work and non-work time allowed
 me to be more focused and efficient in work hours.
-
-<br>
 
 #### Session details
 
