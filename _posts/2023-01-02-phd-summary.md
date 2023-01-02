@@ -3,7 +3,7 @@ layout: single
 title: "Digging into Asana data from my PhD"
 date: "02 January, 2023"
 categories: data-visualisation academia
-tags: ggplot2 R personal
+tags: ggplot2 R personal time-management asana
 excerpt: "Visualising my productivity throughout my PhD using my data from Asana."
 toc: true
 toc_sticky: true
@@ -12,7 +12,7 @@ header:
   og_image: /images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png
 ---
 
-<p align="center"><img src="/images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png" width="640"></p>
+<p align="center"><img src="/images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png" width="640" height="320"></p>
 
 Last month I handed in my PhD thesis, the culmination of almost 4 years
 of work! 🥳
