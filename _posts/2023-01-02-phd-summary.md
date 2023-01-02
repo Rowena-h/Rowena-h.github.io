@@ -12,12 +12,12 @@ header:
   og_image: /images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png
 ---
 
-<p align="center"><img src="/images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png" width="640" height="320"></p>
+<p align="center"><img src="/images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png" width="640" height="320" />
 
 Last month I handed in my PhD thesis, the culmination of almost 4 years
 of work! 🥳
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s the end of an era for me today as I submitted my PhD thesis..! 🍄 Thanks for everything <a href="https://twitter.com/EsterGaya1?ref_src=twsrc%5Etfw">@EsterGaya1</a> <a href="https://twitter.com/RJABuggs?ref_src=twsrc%5Etfw">@RJABuggs</a> <a href="https://twitter.com/theo_llewellyn?ref_src=twsrc%5Etfw">@theo_llewellyn</a> among many others <a href="https://twitter.com/KewScience?ref_src=twsrc%5Etfw">@KewScience</a> <a href="https://twitter.com/KewMycology?ref_src=twsrc%5Etfw">@KewMycology</a>. Excited to start as a postdoc <a href="https://twitter.com/EarlhamInst?ref_src=twsrc%5Etfw">@EarlhamInst</a> in the new year (after I make the most of the holidays!!) <a href="https://t.co/AChkBYQgKL">pic.twitter.com/AChkBYQgKL</a></p>&mdash; Rowena Hill (@RowenaCHill) <a href="https://twitter.com/RowenaCHill/status/1605605636258947086?ref_src=twsrc%5Etfw">December 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<p align="center"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s the end of an era for me today as I submitted my PhD thesis..! 🍄 Thanks for everything <a href="https://twitter.com/EsterGaya1?ref_src=twsrc%5Etfw">@EsterGaya1</a> <a href="https://twitter.com/RJABuggs?ref_src=twsrc%5Etfw">@RJABuggs</a> <a href="https://twitter.com/theo_llewellyn?ref_src=twsrc%5Etfw">@theo_llewellyn</a> among many others <a href="https://twitter.com/KewScience?ref_src=twsrc%5Etfw">@KewScience</a> <a href="https://twitter.com/KewMycology?ref_src=twsrc%5Etfw">@KewMycology</a>. Excited to start as a postdoc <a href="https://twitter.com/EarlhamInst?ref_src=twsrc%5Etfw">@EarlhamInst</a> in the new year (after I make the most of the holidays!!) <a href="https://t.co/AChkBYQgKL">pic.twitter.com/AChkBYQgKL</a></p>&mdash; Rowena Hill (@RowenaCHill) <a href="https://twitter.com/RowenaCHill/status/1605605636258947086?ref_src=twsrc%5Etfw">December 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p> 
 
 In mid 2019 when I was about 6 months into my PhD I realised that I
 could benefit from using some kind of project management software, and
