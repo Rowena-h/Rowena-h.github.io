@@ -12,7 +12,7 @@ header:
   og_image: /images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png
 ---
 
-<p align="center"><img src="/images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png" width="640" height="320" />
+<p align="center"><img src="/images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png" width="400" height="200" /></p>
 
 Last month I handed in my PhD thesis, the culmination of almost 4 years
 of work! 🥳
