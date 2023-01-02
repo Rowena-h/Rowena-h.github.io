@@ -89,7 +89,7 @@ html_4 <- c(
   <th></th>
   <th></th>
   <th></th>
-  <th style="text-align: center"><small>Google scholar citations</small></th>
+  <th style="text-align: center"><small>Citations</small></th>
   </tr>'),
   html_3,
   '</tbody>
