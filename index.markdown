@@ -6,7 +6,7 @@ sidebar:
     image_alt: "Rowena Hill"	
 ---
 
-I'm a computational biologist who works on the diversity and evolution of fungi. I submitted my PhD at RBG Kew and Queen Mary University of London in December 2022, and start as a postdoc at the Earlham Institute in January 2023.
+I'm a computational biologist who works on the diversity and evolution of fungi. As of January 2023 I'm a [postdoctoral researcher at the Earlham Institute](https://www.earlham.ac.uk/profile/rowena-hill), prior to which I completed my PhD at the Royal Botanic Gardens, Kew and Queen Mary University of London.
 
 My main research interests and expertise lie in using evolutionary genomics approaches to explore questions around fungal lifestyle evolution and plant–fungal interactions.
 
