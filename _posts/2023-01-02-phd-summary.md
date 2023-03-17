@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 header:
   teaser: /images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png
-  og_image: /images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png
+  og_image: https://github.com/Rowena-h/Rowena-h.github.io/blob/main/images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png?raw=true
 ---
 
 <p align="center"><img src="/images/blog-posts/2023-01-02-phd-summary/2023-01-02-teaser.png" width="500" height="250" /></p>
