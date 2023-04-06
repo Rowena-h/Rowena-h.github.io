@@ -3,6 +3,8 @@ main:
     url: /cv/
   - title: "Publications"
     url: /publications/
+  - title: "Bioinformatics resources"
+    url: https://github.com/Rowena-h?tab=repositories
   - title: "Science outreach"
     url: /outreach/
   - title: "Blog"
