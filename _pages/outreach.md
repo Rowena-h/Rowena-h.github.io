@@ -5,6 +5,13 @@ permalink: /outreach/
 
 ## Public talks
 
+### [Fungi fact or fungi fiction](https://github.com/Rowena-h/Presentations/tree/master/Fungi%20fact%20or%20fungi%20fiction)
+A talk given on 23rd May 2023 at the Norwich 'Living Small in a Big World' event of the [Pint of Science](https://pintofscience.co.uk/) Festival 2023, mythbusting some of the things you may hear about fungi in the media.
+
+<p align="center">
+<img src="/images/pintofscience2023talk.png" width="500" alt="Fungi fact or fungi fiction">
+</p>
+
 ### [Why fungi are the best friends (and worst enemies) you never knew you had](https://github.com/Rowena-h/Presentations/tree/master/Why%20fungi%20are%20the%20best%20friends%20(and%20worst%20enemies)%20you%20never%20knew%20you%20had)
 A talk given on 11th May 2022 at the 'Unloved Animals Club: Battle of the Kingdoms' event of the **[Pint of Science](https://pintofscience.co.uk/) Festival 2022**. It won over the audience and fungi were voted the best-loved kingdom of the night! :heart_eyes:
 
