@@ -126,10 +126,12 @@ essentially means repeating the above steps with the nested data.
 
 ``` r
 #Get radius and x and y coordinates for centre of nested circles
-circle.layout.pub <- circleProgressiveLayout(mycocosm.lifestyles.df$num.pub,
-                                             sizetype="area")
+circle.layout.pub <- 
+  circleProgressiveLayout(mycocosm.lifestyles.df$num.pub,
+                          sizetype="area")
 
-#If you previously added a small gap between circles, make sure to do so again
+#If you previously added a small gap between circles, make sure to
+#do so again
 circle.layout.pub$radius <- circle.layout.pub$radius * 0.95
 ```
 
@@ -138,7 +140,8 @@ we first need to replace the central points with those of the larger
 circles so that our nested ones overlay correctly.
 
 ``` r
-#Replace x and y with that of the larger circles, but keep same radius
+#Replace x and y with that of the larger circles, but keep the
+#same radius
 circle.layout.pub <- data.frame(x=circle.layout$x,
                                 y=circle.layout$y,
                                 radius=circle.layout.pub$radius)
@@ -148,7 +151,8 @@ Now we can generate the vertices and add the nested circles to the plot.
 
 ``` r
 #Create a dataframe of vertices to draw each nested 'circle'
-circle.vertices.pub <- circleLayoutVertices(circle.layout.pub, npoints=50)
+circle.vertices.pub <- circleLayoutVertices(circle.layout.pub,
+											npoints=50)
 
 #Add to plot
 gg.circles.nested <- gg.circles +
@@ -183,7 +187,7 @@ Alternatively we could label with the original values or percentage
 published, and add a colour legend for the lifestyles.
 
 ``` r
-#Add new column with percentage of published genomes for each lifestyle
+#Add new column with percentage of published genomes
 circle.labels$percent <- round(
   circle.labels$num.pub/circle.labels$num * 100
   )
