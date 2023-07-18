@@ -48,7 +48,10 @@ html_2 <- html_1 %>%
   arrange(desc(year)) %>%
   mutate(author=str_replace_all(author, "([A-Z]) ([A-Z]) ", "\\1\\2 "),
          author=str_replace_all(author, ", \\.\\.\\.", " et al."),
-         author=str_replace_all(author, "R Hill", "<b>R Hill</b>")) %>% 
+         author=str_replace_all(author, "R Hill", "<b>R Hill</b>"),
+         title=str_replace(title,
+                           "Using collections to explore the evolution of plant associated lifestyles in the Ascomycota",
+                           "Using collections to explore the evolution of plant associated lifestyles in the <i>Ascomycota</i> <b>(PhD THESIS)</b>")) %>% 
   split(.$year) %>%
   map(function(x){
     x <- x %>%
