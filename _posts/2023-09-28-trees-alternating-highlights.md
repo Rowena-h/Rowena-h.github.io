@@ -38,7 +38,7 @@ associated with which clades.
 In this example I’m going to use the tree and metadata from [this
 paper](https://doi.org/10.1093/molbev/msac085), which can be downloaded
 from
-[here](https://github.com/Rowena-h/Rowena-h.github.io/tree/main/images/data).
+[here](https://github.com/Rowena-h/Rowena-h.github.io/tree/main/data).
 
 This is an unrooted tree, so first we’ll root it with the outgroup.
 
