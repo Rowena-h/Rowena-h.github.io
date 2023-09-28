@@ -1,0 +1,63 @@
+label,name,sc,sc.abb
+GCA_012931995.1_ASM1293199v1_protein,Albonectria albosuccinea,Albonectria,Alb
+GCA_013266205.1_ASM1326620v1_protein,Albonectria rigidiuscula,Albonectria,Alb
+GCA_002980475.2_ASM298047v2_protein,Fusarium beomiforme,burgessii,FBRSC
+GCA_012932025.1_ASM1293202v1_protein,Fusarium austroafricanum,concolor,FCOSC
+GCA_012932015.1_ASM1293201v1_protein,Fusarium acutatum,fujikuroi,FFSC
+GCA_001654555.2_ASM165455v2_protein,Fusarium agapanthi,fujikuroi,FFSC
+GCA_013364935.1_ASM1336493v1_protein,Fusarium anthophilum,fujikuroi,FFSC
+GCA_013758895.1_ASM1375889v1_protein,Fusarium bulbicola,fujikuroi,FFSC
+GCA_013396185.1_ASM1339618v1_protein,Fusarium circinatum,fujikuroi,FFSC
+GCA_013781345.1_ASM1378134v1_protein,Fusarium coicis,fujikuroi,FFSC
+GCA_013396175.1_ASM1339617v1_protein,Fusarium denticulatum,fujikuroi,FFSC
+GCA_900079805.1_Fusarium_fujikuroi_IMI58289_V2_protein,Fusarium fujikuroi,fujikuroi,FFSC
+GCA_013396165.1_ASM1339616v1_protein,Fusarium globosum,fujikuroi,FFSC
+GCA_900044065.1_Genome_assembly_version_1_protein,Fusarium mangiferae,fujikuroi,FFSC
+GCA_013396015.1_ASM1339601v1_protein,Fusarium mexicanum,fujikuroi,FFSC
+GCA_013396205.1_ASM1339620v1_protein,Fusarium mundagurra,fujikuroi,FFSC
+GCA_013396005.1_ASM1339600v1_protein,Fusarium napiforme,fujikuroi,FFSC
+GCA_002894225.1_CS10214v1_protein,Fusarium nygamai,fujikuroi,FFSC
+GCA_013396025.1_ASM1339602v1_protein,Fusarium phyllophilum,fujikuroi,FFSC
+GCA_900067095.1_F._proliferatum_ET1_version_1_protein,Fusarium annulatum ET1,fujikuroi,FFSC
+GCA_003615215.1_Fp_A8_v1_protein,Fusarium annulatum Fp A8,fujikuroi,FFSC
+GCA_013395995.1_ASM1339599v1_protein,Fusarium pseudoanthophilum,fujikuroi,FFSC
+GCA_013396035.1_ASM1339603v1_protein,Fusarium pseudocircinatum,fujikuroi,FFSC
+fusotu1.proteins,Fusarium chuoi RH1,fujikuroi,FFSC
+fusotu3.proteins,Fusarium chuoi RH3,fujikuroi,FFSC
+fusotu5.proteins,Fusarium annulatum RH5,fujikuroi,FFSC
+fusotu7.proteins,Fusarium proliferatum RH7,fujikuroi,FFSC
+GCA_013396075.1_ASM1339607v1_protein,Fusarium subglutinans,fujikuroi,FFSC
+GCA_013396195.1_ASM1339619v1_protein,Fusarium tjaetaba,fujikuroi,FFSC
+GCA_000149555.1_ASM14955v1_protein,Fusarium verticillioides,fujikuroi,FFSC
+GCA_013396295.1_ASM1339629v1_protein,Fusarium heterosporum,heterosporum,FHSC
+GCA_003316985.1_ASM331698v1_protein,Fusarium coffeatum,incarnatum-equiseti,FIESC
+GCA_003012295.1_FIESC_12_NRRL13405_FIE12Z_contigs_protein,Fusarium flagelliforme,incarnatum-equiseti,FIESC
+fusotu6.proteins,Fusarium sp. 6,incarnatum-equiseti,FIESC
+GCA_013266185.1_ASM1326618v1_protein,Fusarium sarcochroum,lateritium,FLSC
+GCA_013266175.1_ASM1326617v1_protein,Fusarium gaditjirri,nisikadoi,FNSC
+GCA_000350365.1_Foc4_1.0_protein,Fusarium odoratissimum,oxysporum,FOSC
+GCA_003615085.1_FoC_Fus2_v1_protein,Fusarium oxysporum f. sp. cepae,oxysporum,FOSC
+GCA_014154955.1_SMRT_HiC_Fo5176_protein,Fusarium oxysporum f. sp. conglutinans,oxysporum,FOSC
+GCA_000260195.2_FO_II5_V1_protein,Fusarium oxysporum f. sp. cubense TR4,oxysporum,FOSC
+GCA_000149955.2_ASM14995v2_protein,Fusarium oxysporum f. sp. lycopersici 4287,oxysporum,FOSC
+GCA_000260155.3_FO_CL57_V1_protein,Fusarium oxysporum f. sp. radicis-lycopersici,oxysporum,FOSC
+GCA_013364965.1_ASM1336496v1_protein,Fusarium austroamericanum,sambucinum,FSAMSC
+GCA_003033665.1_FusCulm_01_protein,Fusarium culmorum,sambucinum,FSAMSC
+GCA_000240135.3_ASM24013v3_protein,Fusarium graminearum,sambucinum,FSAMSC
+GCA_001292635.1_ASM129263v1_protein,Fusarium langsethiae,sambucinum,FSAMSC
+GCA_003012285.1_Fusarium_longipes_NRRL20695_FLONG3_contigs_protein,Fusarium longipes,sambucinum,FSAMSC
+GCA_001675295.1_FPOA1.0_protein,Fusarium poae,sambucinum,FSAMSC
+GCA_000303195.2_FP7_protein,Fusarium pseudograminearum,sambucinum,FSAMSC
+GCA_003012315.1_Fusarium_sporotrichioides_NRRL3299_FSPOR_contigs_protein,Fusarium sporotrichioides,sambucinum,FSAMSC
+GCA_900007375.1_ASM90000737v1_protein,Fusarium venenatum,sambucinum,FSAMSC
+GCA_003946995.1_NRRL62579.SPAdes_protein,Neocosmospora oligoseptata,Neocosmopora,Neo
+GCA_003947015.1_NRRL62590.SPAdes_protein,'Fusarium' sp. AF-6,Neocosmopora,Neo
+GCA_003946985.1_NRRL62584.SPAdes_protein,'Fusarium' duplospermum ,Neocosmopora,Neo
+GCA_003947045.1_NRRL20438v1_protein,Neocosmospora ambrosia,Neocosmopora,Neo
+GCA_003957675.1_FeuwUCR1854v2_protein,Neocosmospora euwallaceae,Neocosmopora,Neo
+GCA_003947005.1_NRRL62606.SPAdes_protein,Neocosmospora floridana,Neocosmopora,Neo
+GCA_003698175.1_Fus_sp_AF-12_v1.0_protein,Neocosmospora kuroshia,Neocosmopora,Neo
+GCA_000151355.1_v2.0_protein,Neocosmospora pisi,Neocosmopora,Neo
+GCA_000769215.1_Fave_05001_protein,Fusarium avenaceum,tricinctum,FTSC
+GCA_013266195.1_ASM1326619v1_protein,Geejayessia zealandica,Geejayessia,Gee
+Ilysp1_GeneCatalog_proteins_20121116,Ilyonectria sp.,outgroup,outgroup
