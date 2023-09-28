@@ -4,7 +4,7 @@ title: "Plotting phylogenetic trees in R: alternating clade highlights"
 date: "28 September, 2023"
 categories: bioinformatics data-visualisation tutorial
 tags: ggtree R phylogenetics
-excerpt: "A tutorial on how to plot proportional data as nested circles using packcircles and ggplot2"
+excerpt: "A tutorial on how to plot phylogenetic trees with alternating clade highlights using ggtree"
 toc: true
 toc_sticky: true
 header:
