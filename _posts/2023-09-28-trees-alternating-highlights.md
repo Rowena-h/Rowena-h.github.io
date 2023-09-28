@@ -118,7 +118,7 @@ ggtree(tree, linewidth=0.5) %<+% metadata +
 
 ### Identifying nodes to highlight clades
 
-Here we want to highlight clades belonging to different species or
+Here we want to highlight clades belonging to different genera or
 species complexes, which we have information for in our metadata
 dataframe.
 
