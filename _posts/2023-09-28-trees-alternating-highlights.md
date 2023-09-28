@@ -188,7 +188,8 @@ clades.df <- clades.df[match(gg.tree$data %>%
                              clades.df$clade),]
 
 #Add column with alternating binary value
-clades.df$highlight <- rep(c(0,1), length.out=length(clades.df$clade))
+clades.df$highlight <- rep(c(0,1),
+						   length.out=length(clades.df$clade))
 
 head(clades.df)
 ```
