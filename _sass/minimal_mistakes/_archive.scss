@@ -129,6 +129,30 @@
     margin: 0 0 4px;
     font-size: 0.6em;
   }
+  
+  .archive__item-title {
+    margin-top: 0.5em;
+    font-size: $type-size-5;
+  }
+
+  .archive__item-excerpt {
+    display: none;
+
+    @include breakpoint($medium) {
+      display: block;
+      font-size: $type-size-6;
+    }
+  }
+
+  .archive__item-teaser {
+    @include breakpoint($small) {
+      max-height: 200px;
+    }
+
+    @include breakpoint($medium) {
+      max-height: 120px;
+    }
+  }
 }
 
 /*
@@ -149,7 +173,7 @@
   }
 }
 
-.list__item {
+.grid__item {
   margin-bottom: 2em;
 
   @include breakpoint($small) {
@@ -224,7 +248,13 @@
   }
 
   .archive__item-teaser {
-    max-height: 640px;
+    @include breakpoint($small) {
+      max-height: 200px;
+    }
+
+    @include breakpoint($medium) {
+      max-height: 120px;
+    }
   }
 }
 
