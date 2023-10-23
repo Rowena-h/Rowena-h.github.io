@@ -91,7 +91,7 @@
   overflow: hidden;
 
   img {
-    width: 640px;
+    width: 100%;
   }
 }
 
@@ -149,7 +149,7 @@
   }
 }
 
-.grid__item {
+.list__item {
   margin-bottom: 2em;
 
   @include breakpoint($small) {
@@ -224,7 +224,7 @@
   }
 
   .archive__item-teaser {
-    max-height: 200px;
+    max-height: 640px;
   }
 }
 
