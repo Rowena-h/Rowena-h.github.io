@@ -51,7 +51,7 @@ html_2 <- html_1 %>%
          author=str_replace_all(author, "R Hill", "<b>R Hill</b>"),
          title=str_replace(title,
                            "Using collections to explore the evolution of plant associated lifestyles in the Ascomycota",
-                           "Using collections to explore the evolution of plant associated lifestyles in the <i>Ascomycota</i> <b>(PhD THESIS)</b>")) %>% 
+                           "Using collections to explore the evolution of plant associated lifestyles in the <i>Ascomycota</i> <b>(PhD thesis)</b>")) %>% 
   split(.$year) %>%
   map(function(x){
     x <- x %>%
