@@ -5,6 +5,13 @@ permalink: /outreach/
 
 ## Public talks
 
+### [How fungi support our forests (and teach us about the pitfalls of runaway ideas)](https://github.com/Rowena-h/Presentations/tree/master/How%20fungi%20support%20our%20forests%20(and%20teach%20us%20about%20the%20pitfalls%20of%20runaway%20ideas))
+A talk given on 7th October 2024 at the Norwich Biosciences Institutes Accessible Science Talks, summarising the current debate in the fungal research community about mycorrhizal fungi and the 'wood wide web'.
+
+<p align="center">
+<img src="/images/nbiaccessiblescience2024talk.png" width="500" alt="How fungi support our forests (and teach us about the pitfalls of runaway ideas)">
+</p>
+
 ### [Fungi fact or fungi fiction](https://github.com/Rowena-h/Presentations/tree/master/Fungi%20fact%20or%20fungi%20fiction)
 A talk given on 23rd May 2023 at the Norwich 'Living Small in a Big World' event of the [Pint of Science](https://pintofscience.co.uk/) Festival 2023, mythbusting some of the things you may hear about fungi in the media.
 
