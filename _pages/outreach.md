@@ -46,6 +46,9 @@ BBC Radio 4 Costing the Earth, 18th April 2018 *- I provided audio soundbites*
 
 ## Articles/blogs
 
+### [ Why autumn 2024 is your best chance to see lots of weird and wonderful fungi](https://theconversation.com/why-autumn-2024-is-your-best-chance-to-see-lots-of-weird-and-wonderful-fungi-240280)
+The Conversation, 14th October 2024
+
 ### [How we discovered a hidden world of fungi inside the world’s biggest seed bank](https://theconversation.com/how-we-discovered-a-hidden-world-of-fungi-inside-the-worlds-biggest-seed-bank-156051)
 The Conversation, 22nd March 2021 (republished by [BBC Future 31st March 2021](https://www.bbc.com/future/article/20210330-the-seed-bank-thats-inadvertently-storing-fungi))
 
