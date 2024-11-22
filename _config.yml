@@ -64,7 +64,7 @@ author:
   #bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "ResearchGate"
-      icon: "fas fa-fw fa-researchgate"
+      icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Rowena-Hill"
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
@@ -73,7 +73,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Rowena-h"
     - label: "ORCID"
-      icon: "fas fa-fw fa-orcid"
+      icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-1046-5528"
       
 footer:
@@ -85,10 +85,10 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Rowena-h"
     - label: "ResearchGate"
-      icon: "fas fa-fw fa-researchgate"
+      icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Rowena-Hill"
     - label: "ORCID"
-      icon: "fas fa-fw fa-orcid"
+      icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-1046-5528"
 
 defaults:
