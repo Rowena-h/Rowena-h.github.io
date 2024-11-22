@@ -24,7 +24,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Website for computational biologist Rowena Hill
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: RowenaCHill
 github_username:  Rowena-h
 logo: "/images/logo.png"
 search: true
@@ -65,26 +64,32 @@ author:
   #bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "ResearchGate"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Rowena-Hill"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/RowenaCHill"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/rowenahill.bsky.social"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Rowena-h"
+    - label: "ORCID"
+      icon: "fas fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-1046-5528"
       
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/RowenaCHill"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/rowenahill.bsky.social"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Rowena-h"
     - label: "ResearchGate"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Rowena-Hill"
+    - label: "ORCID"
+      icon: "fas fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-1046-5528"
 
 defaults:
   # _posts
