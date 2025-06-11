@@ -1,6 +1,7 @@
 ---
 title: "Science outreach"
 permalink: /outreach/
+toc: true
 ---
 
 ## Public talks
