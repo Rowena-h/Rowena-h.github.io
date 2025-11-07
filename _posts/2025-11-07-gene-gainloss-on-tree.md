@@ -177,7 +177,7 @@ to interpret, both for comparing different nodes and comparing gains and
 losses for the same node.
 
 I also find it very satisfying that alignment of the two semicircles is
-intrinsically handled thanks to how the unicode characters are centered.
+intrinsically handled thanks to how the unicode characters are centred.
 
 ### Addendum
 
