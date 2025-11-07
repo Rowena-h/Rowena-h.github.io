@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Plotting gain and loss on a phylogenetic tree with mushroom plots"
+title: "Mushroom plots to visualise gain and loss on a phylogenetic tree"
 date: "07 November, 2025"
 categories: data-visualisation bioinformatics tutorial
 tags: ggplot2 ggtree R phylogenetics genomics
