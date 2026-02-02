@@ -49,6 +49,7 @@ html_2 <- html_1 %>%
   mutate(author=str_replace_all(author, "([A-Z]) ([A-Z]) ", "\\1\\2 "),
          author=str_replace_all(author, ", \\.\\.\\.", " et al."),
          author=str_replace_all(author, "R Hill", "<b>R Hill</b>"),
+         cites=str_replace_all(as.character(cites), "0", ""),
          title=str_replace(title,
                            "Using collections to explore the evolution of plant associated lifestyles in the Ascomycota",
                            "Using collections to explore the evolution of plant associated lifestyles in the <i>Ascomycota</i> <b>(PhD thesis)</b>")) %>% 
