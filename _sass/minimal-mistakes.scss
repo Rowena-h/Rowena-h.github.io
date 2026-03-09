@@ -46,3 +46,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 600px) {
+  .sidebar {
+    display: none !important;
+  }
+}
