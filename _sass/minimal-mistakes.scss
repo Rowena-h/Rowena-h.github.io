@@ -46,17 +46,3 @@
     width: 100%;
   }
 }
-
-/* Margin image in Publications page sidebar */
-.page-publications .margin-sidebar-image {
-  position: absolute; /* relative to the page wrapper */
-  top: 150px;         /* adjust vertical alignment */
-  right: -200px;      /* push outside main content into margin */
-  width: 180px;       /* adjust image size */
-}
-
-@media (max-width: 1024px) {
-  .page-publications .margin-sidebar-image {
-    display: none;
-  }
-}
