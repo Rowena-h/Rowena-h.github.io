@@ -46,3 +46,19 @@
     width: 100%;
   }
 }
+
+/* Custom margin image for Publications page */
+.page-publications .margin-image {
+  position: fixed;       /* sticks in the margin while scrolling */
+  top: 150px;            /* distance from top of page */
+  right: 20px;           /* margin from right edge; use left: 20px for left margin */
+  width: 150px;          /* adjust image width */
+  z-index: 10;           /* ensure it's above content */
+}
+
+/* Hide on smaller screens */
+@media (max-width: 1024px) {
+  .page-publications .margin-image {
+    display: none;
+  }
+}
