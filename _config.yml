@@ -35,6 +35,9 @@ plugins:
   - jekyll-include-cache
   - jemoji
   
+sass:
+  style: compressed
+  
 include:
   - _pages
 
