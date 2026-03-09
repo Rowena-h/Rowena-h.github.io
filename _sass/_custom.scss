@@ -1,11 +1,16 @@
 /* Hide left sidebar on publications page on small screens */
+
 @media (max-width: 768px) {
-  body.page--publications .sidebar {
+  body.page-publications .sidebar {
     display: none;
   }
 
   /* Expand main content to full width */
-  body.page--publications .archive {
+  body.page-publications .archive {
     width: 100%;
   }
+}
+
+body.page-publications {
+  background: red;
 }
