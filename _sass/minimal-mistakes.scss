@@ -51,7 +51,7 @@
 .page-publications .margin-image {
   position: fixed;       /* sticks in the margin while scrolling */
   top: 150px;            /* distance from top of page */
-  right: 20px;           /* margin from right edge; use left: 20px for left margin */
+  right: calc(50% - 600px); /* pushes it outside main content */
   width: 150px;          /* adjust image width */
   z-index: 10;           /* ensure it's above content */
 }
