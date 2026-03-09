@@ -47,18 +47,16 @@
   }
 }
 
-/* Custom margin image for Publications page */
-.page-publications .margin-image {
-  position: fixed;       /* sticks in the margin while scrolling */
-  top: 150px;            /* distance from top of page */
-  right: calc(50% - 600px); /* pushes it outside main content */
-  width: 150px;          /* adjust image width */
-  z-index: 10;           /* ensure it's above content */
+/* Margin image in Publications page sidebar */
+.page-publications .margin-sidebar-image {
+  position: absolute; /* relative to the page wrapper */
+  top: 150px;         /* adjust vertical alignment */
+  right: -200px;      /* push outside main content into margin */
+  width: 180px;       /* adjust image size */
 }
 
-/* Hide on smaller screens */
 @media (max-width: 1024px) {
-  .page-publications .margin-image {
+  .page-publications .margin-sidebar-image {
     display: none;
   }
 }
